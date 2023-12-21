@@ -1,0 +1,21 @@
+Questions regarding Uploaded Image Classification:
+
+1. Did the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed? If not, report the differences in the classifications.
+
+Answer: 
+Yes, all the three models classified Dog_01.jpg to be the same breed, pug.
+
+2. Did each of the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed of dog as that model architecture classified Dog_02.jpg? If not, report the differences in the classifications.
+
+Answer: 
+Yes, all the three models classified Dog_01.jpg to be the same as that of Dog_02.jpg and mentioned breed correctly as pug.
+
+3. Did the three model architectures correctly classify Animal_Name_01.jpg and Object_Name_01.jpg to not be dogs? If not, report the misclassifications.
+
+Answer: 
+Yes, they were classified as not dogs, but Alexnet model classified pencil_01.jpg as a shovel, which is not a suitable classification.
+
+4. Based upon your answers for questions 1. - 3. above, select the model architecture that you feel did the best at classifying the four uploaded images. Describe why you selected that model architecture as the best on uploaded image classification.
+
+Answer:
+resnet model classified all four images correctly and exhibits 100% accuracy in classifying the provided images, but takes double the time as alexnet model, which classified images as dogs and not-dogs, but classified a pencil to be a shovel, which is incorrect. So, considering the efficiency in classification of all 4 images correctly, alexnet classified at a higher accuracy in a short span of time. If time is not a constraint of much importance, resnet could be a better model. But in most cases, VGG model has the most accuracy.
